@@ -13,6 +13,10 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #652b6b;
+    box-shadow: 5px 1px 20px 0px rgba(0, 0, 0, 0.75)
+}
 .container{
     background-color: #FFECCE;
     padding: 3rem;

@@ -10,13 +10,15 @@
     <div class="container">
         <div class="semafaro">
             <div class="panel">
-                <div class="light red"></div>
-                <div class="light desligado"></div>
-                <div class="light desligado" ></div>
+                <div id="red" class="light desligado"></div>
+                <div id="yellow" class="light yellow"></div>
+                <div id="green" class="light desligado" ></div>
             </div>
         </div>
 
-        <button>Click Me!</button>
+        <button onclick="ligarSemafaro()">Click Me!</button>
     </div>
+
+    <script src="javaScript.js"></script>
 </body>
 </html>
